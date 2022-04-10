@@ -88,5 +88,24 @@ header {
   margin-left: auto;
   color: var(--Dark-Gray);
 }
+/* main styles - creations*/
+.creations__title{
+  margin-bottom: 2em;
+}
+.creations__see-all--top{
+  display: none;
+}
+
+
+
+
+
+
+/* footer*/
+footer{
+  background-color: var(--Black);
+}
+
+
 
 /* diverse immagine a seconda del dispositivo*/
