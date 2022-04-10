@@ -18,6 +18,7 @@ body {
 }
 main {
   padding: 0 1.3em;
+  text-align: center;
 }
 h1,
 h2,
@@ -27,6 +28,9 @@ a {
 }
 h1,
 h2 {
+  max-width: 15ch;
+  margin-right: auto;
+  margin-left: auto;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -65,4 +69,9 @@ header {
   color: var(--White);
   border: 1px solid var(--White);
 }
+/* main styles - interactive */
+.interactive__img {
+  margin: min(1em) auto 3em;
+}
+
 /* diverse immagine a seconda del dispositivo*/
