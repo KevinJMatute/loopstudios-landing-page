@@ -14,6 +14,7 @@ body {
   margin: 0;
   background-color: #333;
   font-family: "Alata", sans-serif;
+  font-weight: 400;
   font-size: 15px;
 }
 main {
@@ -27,12 +28,14 @@ a {
   margin: 0;
 }
 h1,
-h2 {
+h2, .creations__card p {
   max-width: 15ch;
   margin-right: auto;
   margin-left: auto;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  
 }
 img {
   max-width: 100%;
@@ -70,8 +73,20 @@ header {
   border: 1px solid var(--White);
 }
 /* main styles - interactive */
+.interactive{
+  margin-bottom: 5em;
+}
 .interactive__img {
   margin: min(1em) auto 3em;
+}
+.interactive__title{
+  margin-bottom: 1em;
+}
+.interactive__paragraph{
+  max-width: 30ch;
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--Dark-Gray);
 }
 
 /* diverse immagine a seconda del dispositivo*/
