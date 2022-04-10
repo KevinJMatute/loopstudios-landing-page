@@ -1,9 +1,66 @@
-body {
-  background-color: #333;
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Dark-Gray: hsl(0, 0%, 55%);
+  --Very-Dark-Gray: hsl(0, 0%, 41%);
 }
 
+body {
+  margin: 0;
+  background-color: #333;
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
+}
+h1,
+h2,
+p,
+a {
+  margin: 0;
+}
+h1,
+h2 {
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+}
 img {
   max-width: 100%;
 }
 
+/* HEADER STYLES*/
+
+header {
+  position: relative;
+  height: 100vh;
+}
+.hero__img {
+  position: absolute;
+  z-index: -1;
+}
+.header__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo,
+.header__hamburger-nav {
+  margin: 2em 1.5em;
+  cursor: pointer;
+}
+.nav {
+  display: none; /* mobile nav*/
+}
+.header__title {
+  
+  margin: 35vw .8em ; 
+  padding: .8em;
+  line-height: 1.2;
+  font-size: 2.3rem;
+  color: var(--White);
+  border: 1px solid var(--White);
+}
 /* diverse immagine a seconda del dispositivo*/
